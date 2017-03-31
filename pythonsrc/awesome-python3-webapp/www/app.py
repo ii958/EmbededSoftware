@@ -64,6 +64,7 @@ def auth_factory(app, handler):
             if user:
                 logging.info('set current user: %s' % user.email)
                 request.__user__ = user
+        '不能直接跳转到管理页面，除非用户是admin；否则跳转到登录页面'
         if request.path.startswith('/manage/') and (request.__user__ is None or not request.__user__.admin):
             return web.HTTPFound('/signin')
         return (yield from handler(request))
