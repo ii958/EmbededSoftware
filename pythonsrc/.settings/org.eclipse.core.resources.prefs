@@ -1,0 +1,10 @@
+eclipse.preferences.version=1
+encoding//awesome-python3-webapp/www/apis.py=utf-8
+encoding//awesome-python3-webapp/www/app.py=utf-8
+encoding//awesome-python3-webapp/www/config.py=utf-8
+encoding//awesome-python3-webapp/www/config_default.py=utf-8
+encoding//awesome-python3-webapp/www/config_override.py=utf-8
+encoding//awesome-python3-webapp/www/coroweb.py=utf-8
+encoding//awesome-python3-webapp/www/handlers.py=utf-8
+encoding//awesome-python3-webapp/www/models.py=utf-8
+encoding//awesome-python3-webapp/www/orm.py=utf-8
