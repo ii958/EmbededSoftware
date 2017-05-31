@@ -1,0 +1,1 @@
+cmd_/home/chencheng/dev/memdev.ko := ld -r -m elf_i386 -T /usr/src/linux-headers-3.13.0-113-generic/scripts/module-common.lds --build-id  -o /home/chencheng/dev/memdev.ko /home/chencheng/dev/memdev.o /home/chencheng/dev/memdev.mod.o
